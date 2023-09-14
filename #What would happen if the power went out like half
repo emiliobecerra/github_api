@@ -1,0 +1,13 @@
+#What would happen if the power went out like halfway you write run_request.py
+person1
+person2
+person3
+person4
+person5
+
+Inside the folder
+
+person1.json.tmp
+#rename it to person1.json
+person2.json.tmp
+# rename it to person2.json
