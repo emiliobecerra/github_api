@@ -1,4 +1,3 @@
-
 import requests
 import json
 import os
@@ -7,7 +6,6 @@ import time
 
 if not os.path.exists("json_files"):
   os.mkdir("json_files")
-
 
 access_point = "https://api.github.com"
 
