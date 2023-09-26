@@ -1,0 +1,10 @@
+Architecture 
+run_request 		reads seeds.csv 			outputs json files
+run_parse 			reads json files 			outputs github_user_data.csv
+run_request_followers   reads github_user_data.csv  Outputs json_files
+run_parse_followers 	read json_files  		output seed2.csv
+*We want to get a new seed.csv with the follower information, then we can loop the entire structure with the new seed.csv, then we can continue the loop with new seeds. 
+
+
+SNOWBALL SAMPLING: 	
+Naturally get a network structure of connected sample. 

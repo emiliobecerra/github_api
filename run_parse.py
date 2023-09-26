@@ -21,7 +21,7 @@ for json_file_name in glob.glob("json_files/*.json"):
 	f.close()
 
 	# print(json_data)
-	# homework: 
+	
 	gh_id = json_data['login']
 	gh_number_id = json_data['id']
 	node_id = json_data['node_id']
